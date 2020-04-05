@@ -46,7 +46,7 @@ data <-
   "Shiny apps were then deployed and hosted on linux virtual machines for end users to access."
   ),
   
-  "Actuarial Pricing",    "",                    "",               "",             
+  "Actuarial pricing",    "",                    "",               "",             
   c(
     "Developed pricing models for auto insurance products which includes private car, commercial vehicles and motorcycles.",
     "Segmentation analysis was conducted on the data to find trends and abnormalities on potential rating factors.",
@@ -55,7 +55,7 @@ data <-
   
     "Actuarial reserving",    "",                    "",               "",             
   c(
-    "Provide support in statutory liability valuation for general (re)insurance companies in Malaysia, Philippines and Sri Lanka."
+    "Provided support in statutory liability valuation for general (re)insurance companies in Malaysia, Philippines and Sri Lanka."
     ),
   
   # AIA
@@ -92,14 +92,14 @@ data <-
   "SQL - Data querying and preparation",
   "Microsoft - Excel, Access, Powerpoint, Word",
   "HTML & CSS - Beginner proficiency for R shiny dashboard development",
-  "Minitab - Salsford Predictive Modeling (Treenet)",
+  "Minitab - Salford Predictive Modeler (Treenet)",
   "Github, Bitbucket - version control"
   ),
   
   # Computer
   "Computer", "", "", "", 
   c("AWS: EC2 & S3 for SAS and R",
-  "Azure: Setting up linux virtual machine for shiny deployment",
+  "Azure: Setting up linux virtual machines for shiny deployment",
   "Linux and Windows cmd: Process automation"
   )
   
@@ -126,9 +126,9 @@ data <-
   "Champion – Winner of RM 12,000", "Aug. 2016", "CIMB Data Science Challenge", "KL, Malaysia", 
   c("Worked in a group of 3 while competing with 51 other teams to build the best business proposal using statistical analysis. Competition lasted 24 hours.", 
   "Worked with SAS Programming (Enterprise Miner & Enterprise Guide) to analyze large data sets and develop predictive models to assist in decision making.", 
-  "Raw data consisting of customer information was given to each team. The data stipulated actual data (dirty and unorganized). Microsoft Excel and SAS Enterprise Miner were used for data cleansing and table merging.", 
-  "SAS Enterprise Guide was used to analyze the clean data and to develop predictive models, i.e: Tree, Neural Network, Regression.", 
-  "The results from the model were used to build a business proposal (Targeted Marketing) and to show how impactful would it be."
+  "Raw data consisting of customer information was given to each team. The data stipulated actual data (dirty and unorganized). Microsoft Excel and SAS Enterprise Guide were used for data cleansing and table merging.", 
+  "SAS Enterprise Miner was used to analyze the clean data and to develop predictive models, i.e: Tree, Neural Network, Regression.", 
+  "The results from the model were used to build a business proposal (targeted marketing) and to show how impactful would it be."
   ),
   
   "Full scholarship", "Mar. 2014", "Sunway Excellence Scholarship", "KL, Malaysia", 
@@ -192,8 +192,9 @@ data <-
     "Sunway University Student Council", "Mar. 2014 - Mar. 2016", "Other experience", "", 
   c(
   "Co-Organizer of event “Unheard; Unseen; Unforgotten” in collaboration with National Cancer Society Malaysia (NCSM), Dialogue in the Dark (DID), and Refuge for the Refugees (RFTR).",  
-  "Conducted shaving event to raise cancer awareness amongst students. Conducted food drive and merchandise selling to raise donation funds"
-  # "Conducted food drive and merchandise selling to raise donation funds"
+  # "Conducted shaving event to raise cancer awareness amongst students. Conducted food drive and merchandise selling to raise donation funds"
+  "Conducted shaving event to raise cancer awareness amongst students.", 
+  "Conducted food drive and merchandise selling to raise donation funds."
   )
   
   ) %>% 
