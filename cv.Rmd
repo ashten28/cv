@@ -7,7 +7,7 @@ address: Kuala Lumpur, Malaysia
 profilepic: "./img/me2.jpg"
 phone: +60 12 728 6229
 email: ashten28@gmail.com
-# aboutme: I am an actuarial science graduate but have enthusiastic interest in data science in R. 
+aboutme: Open to remote related opportunities. 
 # website: 
 github: ashten28
 linkedin: ashten-anthony
