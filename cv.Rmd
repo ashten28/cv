@@ -216,17 +216,31 @@ data <-
   tribble(
   ~ what, ~ when, ~ with, ~ where, ~ why,
   
-  "Ex manager at NMG", "", "Ooi Choong Hern", "", 
+  
+  # "Ex manager at NMG", "", "Ooi Choong Hern", "", 
+  # c(
+  # "choonghern.ooi@gmail.com", 
+  # "+60 12 202 7161"
+  # ),
+  
+  "Ex manager at NMG", "", "", "", 
   c(
-  "choonghern.ooi@gmail.com", 
-  "+60 12 202 7161"
+  "Email : Provided upon request", 
+  "Phone : Provided upon request"
   ),
   
-  "Ex supervisor at AIA", "", "Wong Li Kuan", "", 
+  
+  # "Ex supervisor at AIA", "", "Wong Li Kuan", "", 
+  # c(
+  # "likuan.wong@aia.com", 
+  # "+60 12 660 3214"
+  # )
+  "Ex supervisor at AIA", "", "", "", 
   c(
-  "likuan.wong@aia.com", 
-  "+60 12 660 3214"
+  "Email : Provided upon request", 
+  "Phone : Provided upon request"
   )
+  
   
   ) %>% 
   group_by(what, when, with, where)
