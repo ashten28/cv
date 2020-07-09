@@ -5,7 +5,8 @@ qualifications: BSc(Hons) in Actuarial Studies
 position: Data scientist + actuary
 address: Kuala Lumpur, Malaysia
 profilepic: "./img/me2.jpg"
-phone: +60 12 728 6229
+# phone: +60 12 728 6229
+phone: +60 1x xxx xxxx
 email: ashten28@gmail.com
 aboutme: Open to remote related opportunities. 
 # website: 
