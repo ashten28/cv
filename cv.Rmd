@@ -35,11 +35,11 @@ data <-
   # Hannover Re
   "Cross-selling analysis with profit maximisation", "Nov. 2020 - Present", "Hannover Re - Regional P&C Analyst", "KL, Malaysia", 
   c("Delivered excel-based analysis that indicates profitable treaties for underwriters to cross-sell during renewal negotiations.",
-    "Analysis also included optimization to maximise profit while constraining on available catastrophic capacity"), 
+    "Analysis also included optimization to maximise profit while constraining on available catastrophic capacity."), 
   
   "Portfolio monitoring with segmentation analysis",     "",                    "",               "",  
   c("Delivered excel-based analysis to report branch's key financial figures such as estimated premium income (EPI), written premium, earned premium, ultimate losses and combined ratio. ", 
-    "Report allowed for various segmental views of mentioned key figures such as lines of business, underwriters, contract partners, countries and brokers"
+    "Report allowed for various segmental views of mentioned key figures such as lines of business, underwriters, contract partners, countries and brokers."
     ),
   
   #   "Project scoping for branch underwriting digitalisation",     "",                    "",               "",  
