@@ -2,13 +2,13 @@
 name: Ashten Anthony
 date: "`r format(Sys.time(), '%B, %Y')`"
 qualifications: BSc(Hons) in Actuarial Studies
-position: Data scientist + actuary
+position: Actuarial + Data Science
 address: Kuala Lumpur, Malaysia
 profilepic: "./img/me2.jpg"
 # phone: +60 12 728 6229
 phone: +60 1x xxx xxxx
 email: ashten28@gmail.com
-aboutme: Open to remote related opportunities. 
+aboutme: Open to remote opportunities. 
 # website: 
 github: ashten28
 linkedin: ashten-anthony
@@ -32,8 +32,21 @@ data <-
   tribble(
   ~ what, ~ when, ~ with, ~ where, ~ why,
   
+  # Hannover Re
+  "Cross-selling analysis with profit maximisation", "Nov. 2020 - Present", "Hannover Re - Regional P&C Analyst", "KL, Malaysia", 
+  c("Delivered excel-based analysis that indicates profitable treaties for underwriters to cross-sell during renewal negotiations.",
+    "Analysis also included optimization to maximise profit while constraining on available catastrophic capacity"), 
+  
+  "Portfolio monitoring with segmentation analysis",     "",                    "",               "",  
+  c("Delivered excel-based analysis to report branch's key financial figures such as estimated premium income (EPI), written premium, earned premium, ultimate losses and combined ratio. ", 
+    "Report allowed for various segmental views of mentioned key figures such as lines of business, underwriters, contract partners, countries and brokers"
+    ),
+  
+  #   "Project scoping for branch underwriting digitalisation",     "",                    "",               "",  
+  # c("Wrote up proposal to scope out a digitalisation effort for current underwriting process that maximises data collection."),
+  
   # NMG
-  "Data science - machine learning", "Aug. 2017 - Present", "NMG Consulting - Analyst, Senior Analyst", "KL, Malaysia", 
+  "Data science - machine learning", "Aug. 2017 - Oct. 2020", "NMG Consulting - Analyst, Senior Analyst", "KL, Malaysia", 
   c("Provided support for an Australian non-life insurer's pricing team to deconstruct their competitors premium (motor,
   home, landlords, motorcycle, business packs).", 
   "Machine learning algorithms such as Distributed Random Forest, Gradient Boosting Machine, eXtreme Gradient Boosting was built to deconstruct the premiums.", 
@@ -48,20 +61,28 @@ data <-
   ),
   
   "Market study - Australian Insurance Brokers",     "",                    "",               "",  
-  c("Provided support in compiling and visualising Australian non-life market statistics. Data utilised here was published by Australian Prudential Regulation Authority (APRA).",    
+  c("Provided support in compiling and visualising Australian non-life market statistics. Data utilised here were published by Australian Prudential Regulation Authority (APRA).",    
   "Visualisation was performed in Ms Excel and reporting was done in Ms PowerPoint."
   ),
   
-  "Actuarial pricing",    "",                    "",               "",             
+  "Actuarial - Pricing",    "",                    "",               "",             
   c(
     "Developed pricing models for auto insurance products which includes private car, commercial vehicles and motorcycles.",
     "Segmentation analysis was conducted on the data to find trends and abnormalities on potential rating factors.",
     "Pricing models were then developed using Generalised Linear Models in statistical softwares such as R Programming and SAS."
     ),
   
-    "Actuarial reserving",    "",                    "",               "",             
+    "Actuarial - Reserving",    "",                    "",               "",             
   c(
-    "Provided support in statutory liability valuation for general (re)insurance companies in Malaysia, Philippines and Sri Lanka."
+    "Provided support in statutory liability valuation for general (re)insurance companies in Malaysia, Philippines and Sri Lanka.",
+    "Support includes data cleaning, data checking and data preparation of raw claims and premium data for Ms Excel analysis"
+    ),
+  
+      "Actuarial - Retirement Benefit",    "",                    "",               "",             
+  c(
+    "Provided support for retirement benefit valuation for companies in Malaysia and and Australia.",
+    "Support includes data cleaning, data checking and data preparation of exposure data for MS Excel analysis", 
+    "For companies with large data, R Programming was used to compile raw data into an analysis friendly format."
     ),
   
   # AIA
@@ -83,6 +104,7 @@ structure(data, preserve = "what", protect = TRUE, class = c("vitae_detailed", "
 
 ```
 \
+\pagebreak
 
 # Skills
 ```{r skills}
@@ -119,8 +141,6 @@ structure(data, preserve = "what", protect = TRUE, class = c("vitae_detailed", "
 <!-- xx -->
 <!-- } -->
 
-\pagebreak
-
 # Achievements
 ```{r achievements}
 
@@ -130,10 +150,10 @@ data <-
   
   # CIMB
   "Champion – Winner of RM 12,000", "Aug. 2016", "CIMB Data Science Challenge", "KL, Malaysia", 
-  c("Worked in a group of 3 while competing with 51 other teams to build the best business proposal using statistical analysis. Competition lasted 24 hours.", 
-  "Worked with SAS Programming (Enterprise Miner & Enterprise Guide) to analyze large data sets and develop predictive models to assist in decision making.", 
-  "Raw data consisting of customer information was given to each team. The data stipulated actual data (dirty and unorganized). Microsoft Excel and SAS Enterprise Guide were used for data cleansing and table merging.", 
-  "SAS Enterprise Miner was used to analyze the clean data and to develop predictive models, i.e: Tree, Neural Network, Regression.", 
+  c("Worked in a group of 3 while competing with 51 other teams to build the best business proposal using statistical analysis.", 
+  "Worked with SAS Programming to analyze large data sets and develop predictive models to assist in decision making.", 
+  "Raw data consisting of customer information was given to each team. The data stipulated actual data (dirty and unorganized). MS Excel and SAS EG were used for data cleansing and table merging.", 
+  "SAS EM was used to analyze the clean data and to develop predictive models, i.e: Tree, Neural Network, Regression.", 
   "The results from the model were used to build a business proposal (targeted marketing) and to show how impactful would it be."
   ),
   
@@ -193,15 +213,15 @@ data <-
   "VEE Economics, Corporate Finance, Applied Statistics"
   # "VEE Corporate Finance",
   # "VEE Applied Statistics"
-  ),
-  
-    "Sunway University Student Council", "Mar. 2014 - Mar. 2016", "Other experience", "", 
-  c(
-  "Co-Organizer of event “Unheard; Unseen; Unforgotten” in collaboration with National Cancer Society Malaysia (NCSM), Dialogue in the Dark (DID), and Refuge for the Refugees (RFTR).",  
-  # "Conducted shaving event to raise cancer awareness amongst students. Conducted food drive and merchandise selling to raise donation funds"
-  "Conducted shaving event to raise cancer awareness amongst students.", 
-  "Conducted food drive and merchandise selling to raise donation funds."
   )
+  
+  #   ,"Sunway University Student Council", "Mar. 2014 - Mar. 2016", "Other experience", "", 
+  # c(
+  # "Co-Organizer of event “Unheard; Unseen; Unforgotten” in collaboration with National Cancer Society Malaysia (NCSM), Dialogue in the Dark (DID), and Refuge for the Refugees (RFTR).",  
+  # # "Conducted shaving event to raise cancer awareness amongst students. Conducted food drive and merchandise selling to raise donation funds"
+  # "Conducted shaving event to raise cancer awareness amongst students.", 
+  # "Conducted food drive and merchandise selling to raise donation funds."
+  # )
   
   ) %>% 
   group_by(what, when, with, where)
@@ -224,11 +244,11 @@ data <-
   # "+60 12 202 7161"
   # ),
   
-  "Ex manager at NMG", "", "", "", 
+  "Ex managers at NMG", "", "", "", 
   c(
   "Email : Provided upon request", 
   "Phone : Provided upon request"
-  ),
+  )
   
   
   # "Ex supervisor at AIA", "", "Wong Li Kuan", "", 
@@ -236,11 +256,11 @@ data <-
   # "likuan.wong@aia.com", 
   # "+60 12 660 3214"
   # )
-  "Ex supervisor at AIA", "", "", "", 
-  c(
-  "Email : Provided upon request", 
-  "Phone : Provided upon request"
-  )
+  # "Ex supervisor at AIA", "", "", "", 
+  # c(
+  # "Email : Provided upon request", 
+  # "Phone : Provided upon request"
+  # )
   
   
   ) %>% 
@@ -250,7 +270,7 @@ structure(data, preserve = "what", protect = TRUE, class = c("vitae_detailed", "
 
 ```
 
----
-Credits to [`rOpenSci`](https://ropensci.org/). I created this CV using their [`vitae`](https://github.com/ropenscilabs/vitae) R package. Codes are on my [Github account](https://github.com/ashten28/cv)
+<!-- --- -->
+<!-- Credits to [`rOpenSci`](https://ropensci.org/). I created this CV using their [`vitae`](https://github.com/ropenscilabs/vitae) R package. Codes are on my [Github account](https://github.com/ashten28/cv) -->
 
 <!-- \pagebreak -->
