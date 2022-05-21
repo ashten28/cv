@@ -2,13 +2,13 @@
 name: Ashten Anthony
 date: "`r format(Sys.time(), '%B, %Y')`"
 qualifications: BSc(Hons) in Actuarial Studies
-position: Actuarial + Data Science
+# position: Actuarial
 address: Kuala Lumpur, Malaysia
-profilepic: "./img/me2.jpg"
-# phone: +60 12 728 6229
-phone: +60 1x xxx xxxx
+# profilepic: "./img/me2.jpg"
+phone: +60 12 728 6229
+# phone: +60 1x xxx xxxx
 email: ashten28@gmail.com
-aboutme: Open to remote opportunities. 
+# aboutme: Open to remote opportunities. 
 # website: 
 github: ashten28
 linkedin: ashten-anthony
@@ -32,14 +32,39 @@ data <-
   tribble(
   ~ what, ~ when, ~ with, ~ where, ~ why,
   
+  # Suncorp
+  "SME Rate Review",     "Aug. 2021 - present", "Suncorp Australia - Senior Pricing Analyst", "KL, Malaysia (Remote)",  
+  c("Provided support in pricing rate review of SME products for fire, business interuption and liability covers. Performed modeling on cost per policy to determine the new rates"
+    ),
+  
+  "SME occupation hazard group update",     "",                    "",               "",  
+  c("Perfomed analysis to set higher hazard grouping to financially poor performing occupation groups in order to quote higher prices in return for lower strike rates."
+    # "This resulted in better risk selection and improved portfolio performance in the following quarters."
+    ),
+  
+    "Expense rate analysis", "",                    "",               "", 
+  c("Performed yearly expense analysis based on finance data to estimate appropriate fixed and variable expenses to be charged to policies."
+    # "Implemented new expense ratio into the rate tables and performed financial impact to assess per policy GWP changes."
+    ), 
+  
+    "Financial impact analyis enhancement",     "",                    "",               "",  
+  c(
+    # "As a pricing team, financial impact analysis is necessary after every price change in order to measure the impact to key figures such as GWP, AGWP and ITR.", 
+    "Developed enhancements to team's financial impact analysis to better measure key figures such GWP, AGWP and ITR from price changes. "
+    ),
+  
+  # "", "", "", "",
+  # c(""),
+  
   # Hannover Re
-  "Cross-selling analysis with profit maximisation", "Nov. 2020 - Present", "Hannover Re - Regional P&C Analyst", "KL, Malaysia", 
-  c("Delivered excel-based analysis that indicates profitable treaties for underwriters to cross-sell during renewal negotiations.",
-    "Analysis also included optimization to maximise profit while constraining on available catastrophic capacity."), 
+  "Cross-selling analysis with profit maximisation", "Nov. 2020 - Jul. 2021", "\n Hannover Re - Regional P&C Senior Analyst", "KL, Malaysia", 
+  c("Delivered excel-based analysis that indicates profitable treaties for underwriters to cross-sell during renewal negotiations. Analysis includes simple optimization maximise profit while constraining on available catastrophic capacity."
+    # "Analysis also included optimization to maximise profit while constraining on available catastrophic capacity."
+    ), 
   
   "Portfolio monitoring with segmentation analysis",     "",                    "",               "",  
-  c("Delivered excel-based analysis to report branch's key financial figures such as estimated premium income (EPI), written premium, earned premium, ultimate losses and combined ratio. ", 
-    "Report allowed for various segmental views of mentioned key figures such as lines of business, underwriters, contract partners, countries and brokers."
+  c("Delivered excel-based analysis to report branch's key financial figures such as estimated premium income (EPI), written premium, earned premium, ultimate losses and combined ratio. "
+    # "Report allowed for various segmental views of mentioned key figures such as lines of business, underwriters, contract partners, countries and brokers."
     ),
   
   #   "Project scoping for branch underwriting digitalisation",     "",                    "",               "",  
@@ -47,120 +72,54 @@ data <-
   
   # NMG
   "Data science - machine learning", "Aug. 2017 - Oct. 2020", "NMG Consulting - Analyst, Senior Analyst", "KL, Malaysia", 
-  c("Provided support for an Australian non-life insurer's pricing team to deconstruct their competitors premium (motor,
-  home, landlords, motorcycle, business packs).", 
-  "Machine learning algorithms such as Distributed Random Forest, Gradient Boosting Machine, eXtreme Gradient Boosting was built to deconstruct the premiums.", 
-  "These models were then used to provide insights (using scoring, variable importance, partial dependency plots) on competitor's pricing structure and strategy while also giving an indication of their own book's competitiveness."
+  c("Provided support for an Australian non-life insurer's pricing team to deconstruct their competitors premium for various products.", 
+  "Machine learning algorithms such as Distributed Random Forest, Gradient Boosting Machine, eXtreme Gradient Boosting was built to deconstruct the premiums."
+  # "These models were then used to provide insights (using scoring, variable importance, partial dependency plots) on competitor's pricing structure and strategy while also giving an indication of their own book's competitiveness."
   ), 
   
   "Data science - visualisation",     "",                    "",               "",  
   c("Independently built R shiny apps with visualisations for monitoring and analytical purposes.",    
-  "Visualisations built includes bar, line, density,   heat, geo map charts and others. These shiny apps cater for various dynamic user inputs to maximise analytical value.", 
-  "Additionally, some apps were to built to gather data from databases such as Amazon Redshift to maximise efficiency and minimise information lags.", 
-  "Shiny apps were then deployed and hosted on linux virtual machines for end users to access."
+  "Visualisations built includes bar, line, density,   heat, geo map charts and others. These shiny apps cater for various dynamic user inputs to maximise analytical value."
+  # "Additionally, some apps were to built to gather data from databases such as Amazon Redshift to maximise efficiency and minimise information lags." 
+  # "Shiny apps were then deployed and hosted on linux virtual machines for end users to access."
   ),
   
   "Market study - Australian Insurance Brokers",     "",                    "",               "",  
-  c("Provided support in compiling and visualising Australian non-life market statistics. Data utilised here were published by Australian Prudential Regulation Authority (APRA).",    
-  "Visualisation was performed in Ms Excel and reporting was done in Ms PowerPoint."
+  c("Provided support in compiling and visualising Australian non-life market statistics from Australian Prudential Regulation Authority (APRA)."
+  # "Visualisation was performed in Ms Excel and reporting was done in Ms PowerPoint."
   ),
   
   "Actuarial - Pricing",    "",                    "",               "",             
   c(
-    "Developed pricing models for auto insurance products which includes private car, commercial vehicles and motorcycles.",
-    "Segmentation analysis was conducted on the data to find trends and abnormalities on potential rating factors.",
-    "Pricing models were then developed using Generalised Linear Models in statistical softwares such as R Programming and SAS."
+    "Developed pricing models for auto insurance products which includes private car, commercial vehicles and motorcycles using Generalised Linear Models in R and SAS"
+    # "Segmentation analysis was conducted on the data to find trends and abnormalities on potential rating factors.",
+    # "Pricing models were then developed using Generalised Linear Models in statistical softwares such as R Programming and SAS."
     ),
   
     "Actuarial - Reserving",    "",                    "",               "",             
   c(
-    "Provided support in statutory liability valuation for general (re)insurance companies in Malaysia, Philippines and Sri Lanka.",
-    "Support includes data cleaning, data checking and data preparation of raw claims and premium data for Ms Excel analysis"
+    "Provided support in statutory liability valuation for non-life insurance companies.",
+    "Support includes data cleaning, data checking and preparation of raw claims and premium data."
     ),
   
       "Actuarial - Retirement Benefit",    "",                    "",               "",             
   c(
     "Provided support for retirement benefit valuation for companies in Malaysia and and Australia.",
-    "Support includes data cleaning, data checking and data preparation of exposure data for MS Excel analysis", 
-    "For companies with large data, R Programming was used to compile raw data into an analysis friendly format."
+    "Support includes data cleaning, data checking and data preparation of exposure data in R"
+    # "For companies with large data, R Programming was used to compile raw data into an analysis friendly format."
     ),
   
   # AIA
-  "Motor and Fire Liberalization", "Jan. 2017 - Apr. 2017", "AIA - Intern", "KL, Malaysia",  
-  c("Analyzed current market’s underwriting guidelines for Motor Insurance to help AIA revise its own underwriting guidelines.", 
-  "Conducted impact analysis to determine the effects of liberalization towards the portfolio. Risk factors and exposures were compared between a liberalized and non-liberalized environment.",
-    "Assisted in building rating plans for motor insurance by analysing claims data to highlight high risk profiles."
-  ),
-  
-  "Personal Accident risk profiling", "", "", "",
-  c("Required to identify and eliminate risky leads from a large database of customers.",
-    "Performed data extraction using SQL from various sources to map out key risk indicators."
-    )
-  
-  ) %>% 
-  group_by(what, when, with, where)
+  # "Motor and Fire Liberalization", "Jan. 2017 - Apr. 2017", "AIA - Intern", "KL, Malaysia",
+  # c("Analyzed current market’s underwriting guidelines for Motor Insurance to help AIA revise its own underwriting guidelines.",
+  # "Conducted impact analysis to determine the effects of liberalization towards the portfolio. Risk factors and exposures were compared between a liberalized and non-liberalized environment.",
+  #   "Assisted in building rating plans for motor insurance by analysing claims data to highlight high risk profiles."
+  # )
 
-structure(data, preserve = "what", protect = TRUE, class = c("vitae_detailed", "vitae_preserve", class(data)))
-
-```
-\
-\pagebreak
-
-# Skills
-```{r skills}
-
-data <- 
-  tribble(
-  ~ what, ~ when, ~ with, ~ where, ~ why,
-  
-  # Software
-  "Software", "", "", "", 
-  c("R - tidyverse, dplyr, dbplyr, shiny,  ggplot2, gganimate, plotly, leaflet, RPostgreSQL, RJDBC, h2o, RStudio", 
-  "SAS - Base, Enterprise Guide, Enterprise Miner (Beginner)",
-  "SQL - Data querying and preparation",
-  "Microsoft - Excel, Access, Powerpoint, Word",
-  "HTML & CSS - Beginner proficiency for R shiny dashboard development",
-  "Minitab - Salford Predictive Modeler (Treenet)",
-  "Github, Bitbucket - version control"
-  ),
-  
-  # Computer
-  "Computer", "", "", "", 
-  c("AWS: EC2 & S3 for SAS and R",
-  "Azure: Setting up linux virtual machines for shiny deployment",
-  "Linux and Windows cmd: Process automation"
-  )
-  
-  ) %>% 
-  group_by(what, when, with, where)
-
-structure(data, preserve = "what", protect = TRUE, class = c("vitae_detailed", "vitae_preserve", class(data)))
-
-```
-<!-- \footnotesize{ -->
-<!-- xx -->
-<!-- } -->
-
-# Achievements
-```{r achievements}
-
-data <- 
-  tribble(
-  ~ what, ~ when, ~ with, ~ where, ~ why,
-  
-  # CIMB
-  "Champion – Winner of RM 12,000", "Aug. 2016", "CIMB Data Science Challenge", "KL, Malaysia", 
-  c("Worked in a group of 3 while competing with 51 other teams to build the best business proposal using statistical analysis.", 
-  "Worked with SAS Programming to analyze large data sets and develop predictive models to assist in decision making.", 
-  "Raw data consisting of customer information was given to each team. The data stipulated actual data (dirty and unorganized). MS Excel and SAS EG were used for data cleansing and table merging.", 
-  "SAS EM was used to analyze the clean data and to develop predictive models, i.e: Tree, Neural Network, Regression.", 
-  "The results from the model were used to build a business proposal (targeted marketing) and to show how impactful would it be."
-  ),
-  
-  "Full scholarship", "Mar. 2014", "Sunway Excellence Scholarship", "KL, Malaysia", 
-  c("All tuition and exam fees were sponsored by Sunway University. Only 1 or 2 recipients per intake." 
-  # "Only 1 or 2 recipients per intake."
-  )
+  # "Personal Accident risk profiling", "", "", "",
+  # c("Required to identify and eliminate risky leads from a large database of customers.",
+  #   "Performed data extraction using SQL from various sources to map out key risk indicators."
+  #   )
   
   ) %>% 
   group_by(what, when, with, where)
@@ -169,41 +128,16 @@ structure(data, preserve = "what", protect = TRUE, class = c("vitae_detailed", "
 
 ```
 
-# Education
-```{r education}
+<!-- \pagebreak -->
 
-data <- 
-  tribble(
-  ~ what, ~ when, ~ with, ~ where, ~ why,
-  
-  # CIMB
-  "Sunway University", "Mar. 2014 - Mar. 2017", "BSc (HONS) in Actuarial Science", "PJ, Malaysia", 
-  c("First Class Honors, Cumulative Grade Point Average (CGPA): 3.93/4.00"
-  ),
-  
-  "DISTED College", "Jan. 2012 - Dec. 2012", "South Australian Matriculation", "Penang, Malaysia", 
-  c("Attained Australian Tertiary Admission Rank (ATAR) – 94.40"
-  ),
-  
-  "High School Muar", "2007 - 2011", "O-Level/ Sijil Pelajaran Malaysia (SPM)", "Johor, Malaysia", 
-  c("English, Mathematics, Further Mathematics, Physics, Chemistry, etc – 10As" 
-  )
-  
-  ) %>% 
-  group_by(what, when, with, where)
-
-structure(data, preserve = "what", protect = TRUE, class = c("vitae_detailed", "vitae_preserve", class(data)))
-
-```
-
-# Others
+# Professional Qualification
 ```{r qualification}
 
 data <- 
   tribble(
   ~ what, ~ when, ~ with, ~ where, ~ why,
   
-  "Casualty Actuarial Society – US Board for Actuarial Membership", "", "Professional Qualification", "", 
+  "Casualty Actuarial Society – US Board for Actuarial Membership", "", "", "", 
   c(
   "Exam Probability (P)", 
   "Exam Financial Mathematics (FM)",  
@@ -230,38 +164,63 @@ structure(data, preserve = "what", protect = TRUE, class = c("vitae_detailed", "
 
 ```
 
-# Referees
-```{r referees}
+# Education & Achievements
+```{r achievements}
+
+data <-
+  tribble(
+  ~ what, ~ when, ~ with, ~ where, ~ why,
+  
+    "Sunway University", "Mar. 2014 - Mar. 2017", "BSc (HONS) in Actuarial Science", "PJ, Malaysia", 
+  c("First Class Honors, Cumulative Grade Point Average (CGPA): 3.93/4.00"
+  ),
+  
+    "Full scholarship", "Mar. 2014", "Sunway Excellence Scholarship", "KL, Malaysia",
+  c("All tuition and exam fees were sponsored by Sunway University. Only 1 or 2 recipients per intake."
+  # "Only 1 or 2 recipients per intake."
+  ),
+
+  # CIMB
+  "Champion – Winner of RM 12,000", "Aug. 2016", "CIMB Data Science Challenge", "KL, Malaysia",
+  c("Worked in a group of 3 while competing with 51 other teams to build the best business proposal using statistical analysis in SAS"
+  # "Worked with SAS Programming to analyze large data sets and develop predictive models to assist in decision making.",
+  # "Raw data consisting of customer information was given to each team. The data stipulated actual data (dirty and unorganized). MS Excel and SAS EG were used for data cleansing and table merging.",
+  # "SAS EM was used to analyze the clean data and to develop predictive models, i.e: Tree, Neural Network, Regression.",
+  # "The results from the model were used to build a business proposal (targeted marketing) and to show how impactful would it be."
+  )
+
+  ) %>%
+  group_by(what, when, with, where)
+
+structure(data, preserve = "what", protect = TRUE, class = c("vitae_detailed", "vitae_preserve", class(data)))
+
+```
+
+
+# Other skills
+```{r skills}
 
 data <- 
   tribble(
   ~ what, ~ when, ~ with, ~ where, ~ why,
   
+  # Software
+  "Software", "", "", "", 
+  c("R - tidyverse, dplyr, dbplyr, shiny,  ggplot2, gganimate, plotly, leaflet, RPostgreSQL, RJDBC, h2o, RStudio", 
+  "SAS - Base, Enterprise Guide, Enterprise Miner (Beginner)",
+  "SQL - Data querying and preparation",
+  "Microsoft - Excel, Access, Powerpoint, Word",
+  "HTML & CSS - Beginner proficiency for R shiny dashboard development",
+  "Minitab - Salford Predictive Modeler (Treenet)",
+  "Github, Bitbucket - version control"
+  ),
   
-  # "Ex manager at NMG", "", "Ooi Choong Hern", "", 
-  # c(
-  # "choonghern.ooi@gmail.com", 
-  # "+60 12 202 7161"
-  # ),
-  
-  "Ex managers at NMG", "", "", "", 
-  c(
-  "Email : Provided upon request", 
-  "Phone : Provided upon request"
+  # Computer
+  "Computer", "", "", "",
+  c("AWS: EC2 & S3 for SAS and R",
+  "Azure: Setting up linux virtual machines for shiny deployment",
+  "Linux and Windows cmd: Process automation"
   )
-  
-  
-  # "Ex supervisor at AIA", "", "Wong Li Kuan", "", 
-  # c(
-  # "likuan.wong@aia.com", 
-  # "+60 12 660 3214"
-  # )
-  # "Ex supervisor at AIA", "", "", "", 
-  # c(
-  # "Email : Provided upon request", 
-  # "Phone : Provided upon request"
-  # )
-  
   
   ) %>% 
   group_by(what, when, with, where)
@@ -269,6 +228,80 @@ data <-
 structure(data, preserve = "what", protect = TRUE, class = c("vitae_detailed", "vitae_preserve", class(data)))
 
 ```
+<!-- \footnotesize{ -->
+<!-- xx -->
+<!-- } -->
+
+<!-- \pagebreak -->
+
+<!-- # Education -->
+<!-- ```{r education} -->
+
+<!-- data <-  -->
+<!--   tribble( -->
+<!--   ~ what, ~ when, ~ with, ~ where, ~ why, -->
+
+<!--   # CIMB -->
+<!--   "Sunway University", "Mar. 2014 - Mar. 2017", "BSc (HONS) in Actuarial Science - Full Scholarship", "PJ, Malaysia",  -->
+<!--   c("First Class Honors, Cumulative Grade Point Average (CGPA): 3.93/4.00" -->
+<!--   ), -->
+
+<!--   "DISTED College", "Jan. 2012 - Dec. 2012", "South Australian Matriculation", "Penang, Malaysia",  -->
+<!--   c("Attained Australian Tertiary Admission Rank (ATAR) – 94.40" -->
+<!--   ), -->
+
+<!--   "High School Muar", "2007 - 2011", "O-Level/ Sijil Pelajaran Malaysia (SPM)", "Johor, Malaysia",  -->
+<!--   c("English, Mathematics, Further Mathematics, Physics, Chemistry, etc – 10As"  -->
+<!--   ) -->
+
+<!--   ) %>%  -->
+<!--   group_by(what, when, with, where) -->
+
+<!-- structure(data, preserve = "what", protect = TRUE, class = c("vitae_detailed", "vitae_preserve", class(data))) -->
+
+<!-- ``` -->
+
+
+
+<!-- # Referees -->
+<!-- ```{r referees} -->
+
+<!-- data <-  -->
+<!--   tribble( -->
+<!--   ~ what, ~ when, ~ with, ~ where, ~ why, -->
+
+
+<!--   # "Ex manager at NMG", "", "Ooi Choong Hern", "",  -->
+<!--   # c( -->
+<!--   # "choonghern.ooi@gmail.com",  -->
+<!--   # "+60 12 202 7161" -->
+<!--   # ), -->
+
+<!--   "Managers at NMG and Suncorp", "", "", "",  -->
+<!--   c( -->
+<!--   "Email : Provided upon request",  -->
+<!--   "Phone : Provided upon request" -->
+<!--   ) -->
+
+
+<!--   # "Ex supervisor at AIA", "", "Wong Li Kuan", "",  -->
+<!--   # c( -->
+<!--   # "likuan.wong@aia.com",  -->
+<!--   # "+60 12 660 3214" -->
+<!--   # ) -->
+<!--   # "Ex supervisor at AIA", "", "", "",  -->
+<!--   # c( -->
+<!--   # "Email : Provided upon request",  -->
+<!--   # "Phone : Provided upon request" -->
+<!--   # ) -->
+
+
+<!--   ) %>%  -->
+<!--   group_by(what, when, with, where) -->
+
+<!-- structure(data, preserve = "what", protect = TRUE, class = c("vitae_detailed", "vitae_preserve", class(data))) -->
+
+<!-- ``` -->
 
 <!-- --- -->
 <!-- Credits to [`rOpenSci`](https://ropensci.org/). I created this CV using their [`vitae`](https://github.com/ropenscilabs/vitae) R package. Codes are on my [Github account](https://github.com/ashten28/cv) -->
