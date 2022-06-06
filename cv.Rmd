@@ -220,7 +220,11 @@ data <-
   c("AWS: EC2 & S3 for SAS and R",
   "Azure: Setting up linux virtual machines for shiny deployment",
   "Linux and Windows cmd: Process automation"
-  )
+  ),
+  
+  # R Showcase
+  "R Showcase", "", "", "",
+  c("Please visit - https://github.com/ashten28")
   
   ) %>% 
   group_by(what, when, with, where)
