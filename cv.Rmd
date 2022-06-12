@@ -224,7 +224,10 @@ data <-
   
   # R Showcase
   "R Showcase", "", "", "",
-  c("Please visit - https://github.com/ashten28")
+  c("R tips - https://github.com/ashten28/Rtips",
+    "R shiny app - https://github.com/ashten28/covid19",
+    "R visualisation - https://github.com/ashten28/tidytuesday",
+    "For all showcases, visit - https://github.com/ashten28")
   
   ) %>% 
   group_by(what, when, with, where)
